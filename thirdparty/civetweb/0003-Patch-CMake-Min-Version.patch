@@ -1,0 +1,26 @@
+From 1b3b1f65d6fb872d66d1d6d49b346d404a7d40bc Mon Sep 17 00:00:00 2001
+From: Sahan Fernando <sahan.h.fernando@gmail.com>
+Date: Mon, 6 Oct 2025 21:30:23 +1100
+Subject: [PATCH] Patch CMakeLists
+
+---
+ CMakeLists.txt | 6 ++----
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 1eb391f2..041b2295 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -1,7 +1,5 @@
+-# Use at least CMake 3.3
+-cmake_minimum_required (VERSION 3.3.0)
+-cmake_policy(VERSION 3.2.2)
+-cmake_policy(SET CMP0054 NEW)
++cmake_minimum_required (VERSION 3.10)
++cmake_policy(VERSION 3.10)
+ 
+ # Set up the project
+ project (civetweb)
+-- 
+2.51.0
+
