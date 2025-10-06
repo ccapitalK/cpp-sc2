@@ -18,6 +18,7 @@ set(workdir "${CMAKE_CURRENT_SOURCE_DIR}/thirdparty/civetweb")
 set(civetweb_patches
     "${CMAKE_CURRENT_LIST_DIR}/0001-Setting-TCP_NODELAY-on-outbound-connections.patch"
     "${CMAKE_CURRENT_LIST_DIR}/0002-Moving-include-CTest-into-if-testing-guard.patch"
+    "${CMAKE_CURRENT_LIST_DIR}/0003-Patch-CMake-Min-Version.patch"
 )
 set(patch_executor git apply --ignore-whitespace ${civetweb_patches})
 
